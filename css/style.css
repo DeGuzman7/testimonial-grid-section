@@ -32,7 +32,11 @@ body{
     font-family: var(--myfont);
     font-size: 1.3rem;
     background: var(--Light-grayish-blue);
-    max-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 main{
     max-width: 110rem;
